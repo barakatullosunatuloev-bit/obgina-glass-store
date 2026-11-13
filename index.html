@@ -1,0 +1,143 @@
+
+
+<!DOCTYPE html>
+
+<html lang="tg">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Obgina Glass</title>
+
+<style>
+
+*{box-sizing:border-box}
+
+body{margin:0;font-family:Arial;background:#f4f6f8;color:#17212b}
+
+header{background:#102b3f;color:white;padding:25px 18px}
+
+header h1{margin:0;font-size:27px}
+
+header p{color:#c6d6df}
+
+nav{display:flex;gap:18px;overflow:auto;padding:15px;background:white}
+
+nav a{color:#17394d;text-decoration:none;font-weight:bold;white-space:nowrap}
+
+.hero{padding:45px 20px;background:#17394d;color:white}
+
+.hero h2{font-size:30px}
+
+.hero button,.product button{background:#c99b55;color:white;border:0;padding:13px 20px;border-radius:7px}
+
+section{padding:20px}
+
+.products{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+
+.product{background:white;padding:12px;border-radius:12px}
+
+.product img{width:100%;height:125px;object-fit:cover;border-radius:8px}
+
+.product h3{font-size:16px}
+
+footer{background:#102b3f;color:white;text-align:center;padding:25px}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>OBGINA GLASS</h1>
+
+<p>Зебоӣ дар ҳар як ҷузъиёт</p>
+
+</header>
+
+<nav>
+
+<a href="#home">Асосӣ</a>
+
+<a href="#products">Маҳсулот</a>
+
+<a href="#contact">Тамос</a>
+
+</nav>
+
+<div class="hero" id="home">
+
+<h2>Шишаи босифат. Тарҳи замонавӣ.</h2>
+
+<p>Душкабина ва перегородкаҳои шишагӣ барои хонаи шумо.</p>
+
+<button onclick="document.getElementById('products').scrollIntoView()">Дидани маҳсулот</button>
+
+</div>
+
+<section id="products">
+
+<h2>Маҳсулоти мо</h2>
+
+<div class="products">
+
+<div class="product">
+
+<img src="https://images.unsplash.com/photo-1620626011761-996317b8d101?w=500" alt="Душкабина">
+
+<h3>Душкабинаи шишагӣ</h3>
+
+<p>Тарҳи зебо ва замонавӣ</p>
+
+<button onclick="order('Душкабинаи шишагӣ')">Фармоиш</button>
+
+</div>
+
+<div class="product">
+
+<img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=500" alt="Перегородка">
+
+<h3>Перегородкаи шишагӣ</h3>
+
+<p>Сифат ва устуворӣ</p>
+
+<button onclick="order('Перегородкаи шишагӣ')">Фармоиш</button>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<h2>Бо мо дар тамос бошед</h2>
+
+<p>Барои фармоиш ва машварат ба мо муроҷиат кунед.</p>
+
+</section>
+
+<footer>
+
+<p>© 2026 Obgina Glass</p>
+
+</footer>
+
+<script>
+
+function order(product){
+
+alert("Шумо "+product+" интихоб кардед. Барои фармоиш бо мо тамос гиред.");
+
+}
+
+</script>
+
+</body>
+
+</html>
