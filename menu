@@ -1,0 +1,133 @@
+
+
+<!DOCTYPE html>
+
+<html lang="tg">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>OBGINA GLASS</title>
+
+<style>
+
+*{box-sizing:border-box}
+
+body{margin:0;font-family:Arial,sans-serif;background:#f5f7f8;color:#17232c}
+
+header{background:#14232d;color:white;padding:22px 6%;display:flex;justify-content:space-between;align-items:center}
+
+.logo{font-size:22px;font-weight:bold;letter-spacing:2px}
+
+nav a{color:white;text-decoration:none;margin-left:15px;font-size:13px}
+
+.hero{padding:65px 7%;background:#243c49;color:white}
+
+.hero h1{font-size:38px;max-width:550px}
+
+.hero p{line-height:1.7;color:#d6e0e4}
+
+.btn{display:inline-block;background:#c49a61;color:#fff;padding:14px 23px;border-radius:5px;text-decoration:none;margin-top:15px}
+
+section{padding:35px 6%}
+
+h2{text-align:center}
+
+.products{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+
+.product{background:white;border-radius:10px;overflow:hidden;box-shadow:0 3px 15px #0001;padding-bottom:20px}
+
+.product img{width:100%;height:190px;object-fit:cover}
+
+.product h3,.product p{margin:12px 16px}
+
+.product a{margin-left:16px;color:#9b713e}
+
+footer{background:#14232d;color:white;text-align:center;padding:30px}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">OBGINA GLASS</div>
+
+<nav><a href="#home">Асосӣ</a><a href="#products">Маҳсулот</a><a href="#contact">Тамос</a></nav>
+
+</header>
+
+<div class="hero" id="home">
+
+<h1>Зебоӣ ва сифати шиша дар ҳар як ҷузъиёт</h1>
+
+<p>Душкабинаҳо, шишапардаҳо ва ҳалли муосир барои ҳаммоми шумо.</p>
+
+<a class="btn" href="#products">Дидани маҳсулот</a>
+
+</div>
+
+<section id="products">
+
+<h2>Маҳсулоти мо</h2>
+
+<div class="products">
+
+<div class="product">
+
+<img src="https://images.unsplash.com/photo-1620626011761-996317b8d101?w=600" alt="Душкабина">
+
+<h3>Душкабинаи шишагӣ</h3>
+
+<p>Тарҳи муосир ва босифат</p>
+
+<a href="#contact">Фармоиш додан →</a>
+
+</div>
+
+<div class="product">
+
+<img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=600" alt="Шишапарда">
+
+<h3>Шишапарда</h3>
+
+<p>Барои ҳаммоми замонавӣ</p>
+
+<a href="#contact">Фармоиш додан →</a>
+
+</div>
+
+<div class="product">
+
+<img src="https://images.unsplash.com/photo-1620626011761-996317b8d101?w=600" alt="Шишаи фармоишӣ">
+
+<h3>Шишаи фармоишӣ</h3>
+
+<p>Мувофиқи андозаи шумо</p>
+
+<a href="#contact">Фармоиш додан →</a>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<h2>Бо мо дар тамос бошед</h2>
+
+<p style="text-align:center">Барои фармоиш ва машварат бо мо тамос гиред.</p>
+
+</section>
+
+<footer>© 2026 OBGINA GLASS — Ҳамаи ҳуқуқҳо ҳифз шудаанд.</footer>
+
+</body>
+
+</html>
